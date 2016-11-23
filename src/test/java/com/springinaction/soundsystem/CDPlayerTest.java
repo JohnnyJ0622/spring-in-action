@@ -1,5 +1,6 @@
 package com.springinaction.soundsystem;
 
+import com.springinaction.soundsystem.config.CDPlayerConfig;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;

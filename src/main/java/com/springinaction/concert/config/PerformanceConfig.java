@@ -1,5 +1,7 @@
-package com.springinaction.concert;
+package com.springinaction.concert.config;
 
+import com.springinaction.concert.Audience;
+import com.springinaction.concert.Performance;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

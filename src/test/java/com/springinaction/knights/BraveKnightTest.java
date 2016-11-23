@@ -1,7 +1,5 @@
-package test.java.com.springinaction.knights;
+package com.springinaction.knights;
 
-import com.springinaction.knights.BraveKnight;
-import com.springinaction.knights.Quest;
 import org.junit.Test;
 
 import static org.mockito.Mockito.*;
