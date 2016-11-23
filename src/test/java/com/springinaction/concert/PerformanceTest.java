@@ -1,5 +1,6 @@
 package com.springinaction.concert;
 
+import com.springinaction.concert.config.PerformanceConfig;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
@@ -21,7 +22,7 @@ public class PerformanceTest {
     public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
 
     @Autowired
-    private Performance performance;
+    private IPerformance performance;
 
     @Test
     public void perform() {
