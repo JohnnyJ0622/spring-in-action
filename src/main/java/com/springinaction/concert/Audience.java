@@ -10,7 +10,7 @@ import org.aspectj.lang.annotation.*;
  */
 @Aspect
 public class Audience {
-    @Pointcut("execution(* com.springinaction.concert.Performance.perform(..))")
+    @Pointcut("execution(* com.springinaction.concert.*.perform(..))")
     public void performance() {
     }
 
