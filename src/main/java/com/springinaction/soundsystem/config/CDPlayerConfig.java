@@ -1,5 +1,8 @@
-package com.springinaction.soundsystem;
+package com.springinaction.soundsystem.config;
 
+import com.springinaction.soundsystem.CDPlayer;
+import com.springinaction.soundsystem.CompactDisc;
+import com.springinaction.soundsystem.SgtPeppers;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
